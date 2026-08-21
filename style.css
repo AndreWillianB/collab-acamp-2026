@@ -27,7 +27,7 @@
             margin-bottom: 12px;
             text-transform: uppercase;
             font-family: "Poppins", sans-serif;
-            margin-top: 180px;
+            margin-top: 150px;
         }
 h1 {
     font-family: "Heading Now Trial", sans-serif;
@@ -110,18 +110,18 @@ a {
 
 @media (max-width: 400px) {
     h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
 }
 @media (max-width: 400px) {
     a {
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
 @media (max-width: 400px) {
     .pre-titulo {
-        font-size: 05px;
+        font-size: 10px;
     }
 }
 @media (max-width: 400px) {
@@ -136,7 +136,7 @@ a {
     }
 
     .tempo span {
-    font-size: 06px;
+    font-size: 16px;
     text-align: center;
     }
 }
