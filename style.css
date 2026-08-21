@@ -108,30 +108,35 @@ a {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     h1 {
-        font-size: 50px;
+        font-size: 30px;
+    }
+}
+@media (max-width: 400px) {
+    a {
+        font-size: 10px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .pre-titulo {
-        font-size: 07px;
+        font-size: 05px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .contador {
-        gap: 0.6rem;
+        gap: 05px;
         font-size: 07px;
         text-align: center;
     }
     .separador {
-    font-size: 07px;
+    font-size: 05px;
     text-align: center;
     }
 
     .tempo span {
-    font-size: 15px;
+    font-size: 06px;
     text-align: center;
     }
 }
