@@ -432,7 +432,7 @@ li {
     }
 
     .titulo-tres {
-        font-size: clamp(48px, 14vw, 75px);
+        font-size: clamp(38px, 14vw, 75px);
         line-height: 0.9;
         letter-spacing: -1.5px;
         text-align: center;
