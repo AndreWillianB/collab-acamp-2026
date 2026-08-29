@@ -324,4 +324,284 @@ li {
     }
 
 }
+/* =========================================================
+   RESPONSIVIDADE — CELULARES
+   Android + iPhone
+========================================================= */
 
+@media (max-width: 700px) {
+
+    /* =========================
+       HEADER
+    ========================= */
+
+    .header {
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .header ul {
+        gap: 0;
+        justify-content: space-around;
+        padding: 14px 8px;
+        width: 100%;
+    }
+
+    .header li {
+        font-size: 9px;
+        letter-spacing: 0;
+        text-align: center;
+    }
+
+
+    /* =========================
+       HOME / CAPA
+    ========================= */
+
+    .home {
+        width: 100%;
+        min-height: 100svh;
+        height: 100svh;
+        padding: 0 20px;
+    }
+
+    .pre-titulo {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+        margin-bottom: 10px;
+    }
+
+    .capa {
+        font-size: clamp(55px, 17vw, 90px);
+        line-height: 0.9;
+        letter-spacing: -2px;
+    }
+
+    .faca-sua-inscricao {
+        font-size: 14px;
+        padding: 14px 24px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+
+    /* =========================
+       DATA
+    ========================= */
+
+    .data {
+        padding: 15px 10px;
+        font-size: clamp(18px, 5vw, 28px);
+        line-height: 1.1;
+    }
+
+
+    /* =========================
+       SEÇÃO — O QUE É
+    ========================= */
+
+    .pag-dois-oque-e {
+        padding: 70px 25px;
+        width: 100%;
+    }
+
+    .titulo-dois {
+        font-size: clamp(48px, 14vw, 75px);
+        line-height: 0.9;
+        letter-spacing: -1.5px;
+        text-align: left;
+    }
+
+    .texto-dois {
+        font-size: 15px;
+        line-height: 1.7;
+        letter-spacing: 0;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+
+
+    /* =========================
+       PROGRAMAÇÃO
+    ========================= */
+
+    .pg-tres-progr {
+        padding: 70px 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .titulo-tres {
+        font-size: clamp(48px, 14vw, 75px);
+        line-height: 0.9;
+        letter-spacing: -1.5px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+
+    /* =========================
+       FAIXAS "EM BREVE"
+    ========================= */
+
+    .breve-faixas {
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        height: 160px;
+        overflow: hidden;
+    }
+
+    .faixa {
+        width: 115%;
+        left: -7.5%;
+        padding: 17px 0;
+    }
+
+    .faixa-laranja {
+        top: 25px;
+    }
+
+    .faixa-roxa {
+        top: 65px;
+    }
+
+    .faixa-conteudo span {
+        font-size: 25px;
+        margin-right: 45px;
+    }
+
+
+    /* =========================
+       INSCRIÇÃO
+    ========================= */
+
+    .pag-quatro-ins {
+        padding: 70px 20px;
+        width: 100%;
+    }
+
+    .titulo span {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
+    .titulo h2 {
+        font-size: clamp(50px, 15vw, 80px);
+        line-height: 0.9;
+        letter-spacing: -2px;
+        margin: 15px 0 20px;
+    }
+
+    .titulo p {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+
+
+    /* =========================
+       CARDS DE PREÇO
+    ========================= */
+
+    .precos {
+        gap: 15px;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        padding: 25px 20px;
+        border-radius: 18px;
+        min-height: 160px;
+        gap: 20px;
+    }
+
+    .card span {
+        font-size: 11px;
+        letter-spacing: 0.8px;
+    }
+
+    .card h3 {
+        font-size: clamp(30px, 9vw, 45px);
+        margin: 5px 0 0;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .card a {
+        padding: 12px 16px;
+        font-size: 11px;
+        white-space: nowrap;
+    }
+
+
+    /* =========================
+       CORREÇÃO DE OVERFLOW
+    ========================= */
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+}
+
+
+/* =========================================================
+   CELULARES MUITO PEQUENOS
+   Ex: iPhone SE / celulares antigos
+========================================================= */
+
+@media (max-width: 380px) {
+
+    .header ul {
+        padding: 12px 4px;
+    }
+
+    .header li {
+        font-size: 8px;
+    }
+
+    .capa {
+        font-size: 52px;
+    }
+
+    .pre-titulo {
+        font-size: 9px;
+    }
+
+    .faca-sua-inscricao {
+        font-size: 12px;
+        padding: 12px 20px;
+    }
+
+    .titulo-dois,
+    .titulo-tres {
+        font-size: 45px;
+    }
+
+    .texto-dois {
+        font-size: 14px;
+    }
+
+    .titulo h2 {
+        font-size: 48px;
+    }
+
+    .card {
+        padding: 20px 15px;
+    }
+
+    .card a {
+        padding: 10px 12px;
+        font-size: 9px;
+    }
+
+}
