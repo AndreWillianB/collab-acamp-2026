@@ -625,3 +625,17 @@ li {
     }
 
 }
+@media (max-width: 768px) {
+
+    .capa-pag picture {
+        display: block;
+        width: 100%;
+    }
+
+    .capa-pag picture img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+}
