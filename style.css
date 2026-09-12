@@ -467,13 +467,25 @@ li {
        PROGRAMAÇÃO
     ===================================== */
 
+    @media (max-width: 768px) {
+
     .programacao {
+
         margin-top: 70px;
 
-        font-size: clamp(50px, 14vw, 70px);
+        font-size: clamp(35px, 12vw, 55px);
 
         line-height: 0.9;
+
+        max-width: 100%;
+
+        overflow-wrap: break-word;
+
+        text-align: center;
+
     }
+
+}
 
 
     /* =====================================
