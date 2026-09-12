@@ -493,16 +493,25 @@ li {
     ===================================== */
 
     .breve-faixas {
-        width: 100vw;
+        position: relative;
+
+        width: 100%;
+
+        max-width: 100%;
+
+        margin-left: 0;
 
         height: 150px;
 
-        margin-left: calc(50% - 50vw);
+        overflow: hidden;
     }
-
     .faixa {
-        padding: 15px 0;
-    }
+    width: 110%;
+
+    left: -5%;
+
+    overflow: hidden;
+}   
 
     .faixa-laranja {
         top: 25px;
@@ -660,6 +669,54 @@ li {
         display: block !important;
         width: 100%;
         height: auto;
+    }
+
+}
+/* =========================================
+   CORREÇÃO DE VAZAMENTO HORIZONTAL MOBILE
+========================================= */
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* =========================================
+   CORREÇÃO DA PROGRAMAÇÃO NO CELULAR
+========================================= */
+
+@media (max-width: 768px) {
+
+    .pg-tres-progr {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        padding: 70px 20px;
+    }
+
+
+    .programacao {
+        margin-top: 70px;
+
+        /* TAMANHO CORRIGIDO PARA CELULAR */
+        font-size: clamp(28px, 9vw, 42px);
+
+        line-height: 0.9;
+
+        letter-spacing: -1px;
+
+        text-align: center;
+
+        width: 100%;
+
+        max-width: 100%;
+
+        white-space: nowrap;
+
+        overflow: hidden;
     }
 
 }
