@@ -1,1 +1,0 @@
-const dataLote2 = new Date("2026-09-20T00:00:00-03:00").getTime();

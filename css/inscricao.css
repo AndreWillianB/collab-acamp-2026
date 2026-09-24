@@ -1,0 +1,78 @@
+body{
+    background-color: #006349;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.inscricao{
+    display: flex;
+    flex-direction: column;
+    margin-top: 34px;
+    gap: 34px;
+}
+.box-participante, .box-responsavel{
+    background-color: transparent;
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    width: 100%;
+}
+.title {
+    font-family: "Heading Now Trial", sans-serif;
+    font-size: 54px;
+    color: #e2e2d2;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-weight: 1000;
+    text-align: center;
+}
+.inserir{
+    position: relative;
+    padding: 20px 0px;
+    width: 100%;
+}
+.inserir label{
+    font-family: "Poppins", sans-serif;
+    color: #e2e2d2;
+    font-size: 20px;
+    width: 100%;
+}
+.inserir input{
+    font-family: "Poppins", sans-serif;
+    background: transparent;
+    border: none;
+    border: 2px solid #e2e2d2;
+    border-radius: 10px;
+    color: #ffff;
+    padding: 20px 50px 20px 20px;
+    width: 100%;
+}
+.inserir input:focus{
+    outline: none;
+    border-color: #e66700;
+}
+.inserir input::placeholder{
+    color: #ffff;
+    font-size: 15px;
+}
+
+.pergunta label{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #e2e2d2;
+    display: flex;
+    gap: 20px;
+}
+.pergunta input{
+    font-family: "Poppins", sans-serif;
+}
+.pergunta{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #e2e2d2;
+}
+.box-pagamento{
+    padding: 20px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSCRIÇÃO COLLAB ACAMP</title>
+    <link rel="stylesheet" href="/COLLABACAMP/css/inscricao.css">
+    <link rel="stylesheet" href="/COLLABACAMP/css/global.css">
+</head>
+<body>
+    <main class="inscricao">
+        <form id="form-inscricao">
+        <section>
+                <div class = "box-participante" id="participante">
+                    <h1 class="title">Dados do Participante</h1>
+                    <div class="inserir">
+                        <label for="nome">Nome completo</label>
+                        <input id="nome" name="nome" type="text" placeholder="Nome completo" required>
+                    </div>
+                    <div class="inserir">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="Email" autocomplete="email" required>
+                    </div>
+                    <div class="inserir">
+                        <label for="telefone">Telefone/WhatsApp</label>
+                        <input id="telefone" name="telefone" type="tel" placeholder="Telefone/WhatsApp" required>
+                    </div>
+                    <div class="inserir">
+                        <label for="idade">Data de Nascimento</label>
+                        <input id="idade" name="idade" type="date" placeholder="Data de Nascimento" required >
+                    </div>
+                    <div class="pergunta">
+                        <p>Você é membro da INACC?</p>
+                        <label><input type="radio" name="membro-inacc" value="sim" required> Sim</label>
+                        <label><input type="radio" name="membro-inacc" value="nao"> Não</label>
+                    </div>
+                    <div class="pergunta">
+                        <p>Você participa de alguma célula?</p>
+                        <label><input type="radio" name="participa-celula" value="dani"> Sim, da Dani(Adls)</label>
+                        <label><input type="radio" name="participa-celula" value="andre"> Sim, do André(Adls)</label>
+                        <label><input type="radio" name="participa-celula" value="mari"> Sim, do Cris e da Mari(Jvns)</label>
+                        <label><input type="radio" name="participa-celula" value="nenhuma"> Não, não participo de nenhuma célula</label>
+                    </div>   
+                </div> 
+        </section>
+        <section>
+            <fieldset id="form-responsavel" hidden disabled>
+                <div class = "box-responsavel" id="responsavel">
+                    <h1 class="title">Informações do Responsável</h1>
+                        <div class="inserir">
+                            <label for="nomeResponsavel">Nome completo do Responsável</label>
+                            <input id="nomeResponsavel" name="nomeResponsavel" type="text" placeholder="Nome completo do Responsável" required>
+                        </div>
+                    <div class="inserir">
+                        <label for="emailResponsavel">Email do Responsável</label>
+                        <input id="emailResponsavel" name="emailResponsavel" type="email" placeholder="Email do Responsável" autocomplete="email" required>
+                    </div>
+                    <div class="inserir">
+                        <label for="telefoneRsponsavel">Telefone/WhatsApp do Responsável</label>
+                        <input id="telefoneResponsavel" name="telefoneResponsavel" type="tel" placeholder="Telefone/WhatsApp do Responsável" required>
+                    </div>
+                </div>
+            </fieldset>
+        </section>
+        <section>
+                <div class = "box-pagamento" id="pagamento">
+                <button type="submit">Continuar para o pagamento</button>
+                </div>
+        </section> 
+        </form>
+    </main>
+    <script src="/COLLABACAMP/js/inscricao.js" defer></script>
+</body>
+</html>
