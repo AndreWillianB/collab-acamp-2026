@@ -11,11 +11,11 @@ html {
 
 @font-face {
     font-family: "Heading Now Trial";
-    src: url("font/HeadingNowTrial-66Bold.ttf") format("truetype");
+    src: url("../font/HeadingNowTrial-66Bold.ttf") format("truetype");
 }
 @font-face {
     font-family: "Poppins";
-    src: url("font/Poppins-Medium.ttf") format("truetype");
+    src: url("../font/Poppins-Medium.ttf") format("truetype");
 
 }
 /* HEADER */
@@ -88,15 +88,6 @@ a{
         font-size: 11px;
         white-space: nowrap;
     }
-}
-h1{
-    font-family: "Heading Now Trial", sans-serif;
-    font-size: 54px;
-    color: #e2e2d2;
-    text-transform: uppercase;
-    letter-spacing: -2px;
-    font-weight: 1000;
-    text-align: center;
 }
 button{
     font-family: "Poppins", sans-serif;
